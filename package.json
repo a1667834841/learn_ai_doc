@@ -1,0 +1,11 @@
+{
+  "name": "langgraph-learning-book",
+  "private": true,
+  "scripts": {
+    "docs:build": "honkit build . _book",
+    "docs:serve": "honkit serve ."
+  },
+  "devDependencies": {
+    "honkit": "^6.1.4"
+  }
+}

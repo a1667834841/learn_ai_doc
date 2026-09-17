@@ -1,0 +1,125 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+
+site:
+  title: LangGraph 测试驱动学习课程
+  structure:
+    - type: section
+      key: section-graph-api
+      title: Graph API 基础
+      path: graph-api
+      default: true
+      children:
+        - type: space
+          key: space-01-first-graph
+          title: 01 · 第一个可运行的图
+          path: 01-first-graph
+          default: true
+          content:
+            directory: ./docs/01-first-graph
+            language: zh
+        - type: space
+          key: space-02-passing-data
+          title: 02 · 节点之间传数据
+          path: 02-passing-data
+          content:
+            directory: ./docs/02-passing-data
+            language: zh
+        - type: space
+          key: space-03-conditional-routing
+          title: 03 · 按数据选择分支
+          path: 03-conditional-routing
+          content:
+            directory: ./docs/03-conditional-routing
+            language: zh
+        - type: space
+          key: space-04-loops-and-recursion
+          title: 04 · 循环与递归限制
+          path: 04-loops-and-recursion
+          content:
+            directory: ./docs/04-loops-and-recursion
+            language: zh
+        - type: space
+          key: space-05-parallel-fanout
+          title: 05 · 并行 fan-out
+          path: 05-parallel-fanout
+          content:
+            directory: ./docs/05-parallel-fanout
+            language: zh
+
+    - type: section
+      key: section-state-execution-reliability
+      title: 状态、执行与可靠性
+      path: state-execution-reliability
+      children:
+        - type: space
+          key: space-06-persistence
+          title: 06 · 持久化：让对话记得住
+          path: 06-persistence
+          default: true
+          content:
+            directory: ./docs/06-persistence
+            language: zh
+        - type: space
+          key: space-07-interrupts
+          title: 07 · 人在回路：暂停与恢复
+          path: 07-interrupts
+          content:
+            directory: ./docs/07-interrupts
+            language: zh
+        - type: space
+          key: space-08-streaming
+          title: 08 · 流式：边跑边看进度
+          path: 08-streaming
+          content:
+            directory: ./docs/08-streaming
+            language: zh
+        - type: space
+          key: space-09-testing
+          title: 09 · 图怎么写测试
+          path: 09-testing
+          content:
+            directory: ./docs/09-testing
+            language: zh
+        - type: space
+          key: space-10-fault-tolerance
+          title: 10 · 容错：外部服务会挂
+          path: 10-fault-tolerance
+          content:
+            directory: ./docs/10-fault-tolerance
+            language: zh
+
+    - type: section
+      key: section-advanced-topics
+      title: 进阶主题
+      path: advanced-topics
+      children:
+        - type: space
+          key: space-11-subgraphs
+          title: 11 · 子图
+          path: 11-subgraphs
+          default: true
+          content:
+            directory: ./docs/11-subgraphs
+            language: zh
+        - type: space
+          key: space-12-store-memory
+          title: 12 · 长期记忆 Store
+          path: 12-store-memory
+          content:
+            directory: ./docs/12-store-memory
+            language: zh
+        - type: space
+          key: space-13-functional-api
+          title: 13 · Functional API（可选）
+          path: 13-functional-api
+          content:
+            directory: ./docs/13-functional-api
+            language: zh
+        - type: space
+          key: space-14-real-llm
+          title: 14 · 接上真实 LLM 与工具（可选）
+          path: 14-real-llm
+          content:
+            directory: ./docs/14-real-llm
+            language: zh
